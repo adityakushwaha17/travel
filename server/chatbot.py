@@ -173,11 +173,11 @@
 
 
 import json
-import requests
+import requests # type: ignore
 import tkinter as tk
 from tkinter import scrolledtext, messagebox
-import numpy as np
-from tensorflow import keras
+import numpy as np # type: ignore
+from tensorflow import keras # type: ignore
 import pickle
 import re
 
